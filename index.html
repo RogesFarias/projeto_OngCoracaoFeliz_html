@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ONG Coração Feliz — Início</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    body {
+      background-image: url('imagens/FundoProjeto1.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>ONG Coração Feliz</h1>
+    <nav>
+      <a href="index.html">Sobre</a>
+      <a href="projetos.html">Projetos</a>
+      <a href="#contato">Contato</a>
+      <a href="galeria.html">Galeria</a>
+      <a href="cadastro.html">Cadastre-se</a>
+    </nav>
+  </header>  
+
+  <section class="hero">
+    <h2>Espalhando amor e esperança onde alcançamos</h2>
+    <p>Somos uma organização sem fins lucrativos dedicada a transformar vidas através de ações solidárias e educativas.</p>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>
+      Fundada em 2025, a ONG Coração Feliz tem como missão promover o bem-estar social por meio de ações de educação,
+      alimentação e apoio emocional. Atuamos com voluntários e parcerias locais para gerar impacto positivo e duradouro.
+    </p>
+  </section> 
+  
+  <section id="contato">
+    <h2>Entre em Contato Conosco</h2>
+    <p>📍 Endereço: Rua dos Milagres, 123 - Brasília, DF</p>
+    <p>📞 Telefone: (61) 99900-0099</p>
+    <p>📧 E-mail: <a href="mailto:contato@coracaofeliz.org">contato@coracaofeliz.org</a></p>
+
+    <form id="formContato">
+      <h3>Envie sua mensagem</h3>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" required>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" rows="4" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+
+    <p id="msgStatus"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 ONG Coração Feliz — Todos os direitos reservados.</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>

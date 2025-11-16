@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ONG Coração Feliz — Projetos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>ONG Coração Feliz</h1>
+    <nav> 
+      <a href="index.html">Início</a>
+      <a href="projetos.html">Projetos</a>        
+    </nav>
+  </header>  
+
+  <main>
+    <section id="projetos">
+      <h2>Nossos Projetos</h2>
+      <ul>
+        <li><strong>Cesta Solidária:</strong> entrega mensal de alimentos a famílias carentes.</li>
+        <li><strong>Educa+:</strong> reforço escolar e oficinas culturais para crianças.</li>
+        <li><strong>Apoio e Afeto:</strong> suporte emocional gratuito para pessoas em situação de vulnerabilidade.</li>
+      </ul>
+    </section>
+
+    <section id="doacao" class="secao-doacao">
+      <h2>Apoie nosso projeto com uma doação via Pix</h2>
+      <p>Sua contribuição nos ajuda a continuar desenvolvendo e melhorando este projeto.</p>
+
+      <img src="imagens/qrcode.png" alt="QR Code Pix" class="qrcode">
+
+      <p><strong>Chave Pix:</strong> 
+        <span id="chave-pix">contato@coracaofeliz.org</span>
+      </p>
+
+      <button onclick="copiarChavePix()" class="botao-copiar">Copiar chave Pix</button>
+      <p id="mensagem-copiado" class="mensagem-copiado">Chave Pix copiada!</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 ONG Coração Feliz — Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
